@@ -10,16 +10,16 @@ if you wish to clean the output: call make clean
 
 Displays key drive information
 
-./reader 3430-good.img info
+./reader <drive name> info
 
 ### List:
 
 Prints drive contents as a tree structure
 
-./reader 3430-good.img list
+./reader <drive name> list
 
 ### Get:
 
 Retrieves a specified file and writes it into the output folder
 
-./reader 3430-good.img get BOOKS/WARAND~1.TXT
+./reader <drive name> get <file path>
